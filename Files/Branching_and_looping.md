@@ -34,8 +34,11 @@ printf (“The absolute value is % d \n”, number); // print the value
   - The syntax of the If else statement is as follows:
   
 >If (condition)
+>
 >Program statement 1;
+>
 >else
+>
 >Program statement 2;
 
 
