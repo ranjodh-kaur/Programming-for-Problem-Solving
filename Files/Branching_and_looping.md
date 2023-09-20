@@ -21,7 +21,7 @@ Branching is a basic concept in computer science. It means an instruction that t
 #include < stdio.h >                                     //Include the stdio.h file
 int main ( )                                            // start of the program
 {
-int numbers;                                          // Declare the variables
+int number;                                          // Declare the variables
 printf (“Type a number:”);                           // message to the user
 scanf (“%d”, & number);                             // read the number from standard input
 if (number < 0)                                    // check whether the number is a negative number
