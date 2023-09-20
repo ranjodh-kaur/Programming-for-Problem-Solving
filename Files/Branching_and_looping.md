@@ -67,15 +67,21 @@ printf (“The number is positive”);   //If it is more than zero then the give
 
 ### Nested if Statement
   - The if statement may itself contain another if statement is called as nested if statement. - - The syntax of the Nested if Statement is as follows
- ´´´
+
 >if (condition1)
+>
 >if (condition2)
+>
 >statement-1;
+>
 >else
+>
 >statement-2;
+>
 >else
+>
 >statement-3;
-´´´
+
 
 ##### The following example print the given numbers along with the largest number using nested if statement.
 #
