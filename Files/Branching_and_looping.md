@@ -12,6 +12,7 @@ Branching is a basic concept in computer science. It means an instruction that t
   - If statement is the simplest form of the control statement. It is very frequently used in    allowing the flow of program execution and decision making.
   - The If structure has the following syntax
 > if(condition)
+> 
 > statement; 
 - The command says that if the condition is true then perform the following statement or If the condition is fake the computer skips the statement and moves on to the next instruction in the program
 ##### The following program calculate the absolute value of an integer using if statement:
