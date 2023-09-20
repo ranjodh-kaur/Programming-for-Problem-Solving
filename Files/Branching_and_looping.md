@@ -17,14 +17,14 @@ statement;
 ##### The following program calculate the absolute value of an integer using if statement:
 
 ```sh
-#include < stdio.h >             //Include the stdio.h file
-int main ( )                    // start of the program
+#include < stdio.h >                                     //Include the stdio.h file
+int main ( )                                            // start of the program
 {
-int numbers;                   // Declare the variables
-printf (“Type a number:”);     // message to the user
-scanf (“%d”, & number);       // read the number from standard input
-if (number < 0)                // check whether the number is a negative number
-number = – number;           // If it is negative then convert it into positive.
+int numbers;                                          // Declare the variables
+printf (“Type a number:”);                           // message to the user
+scanf (“%d”, & number);                             // read the number from standard input
+if (number < 0)                                    // check whether the number is a negative number
+number = – number;                                // If it is negative then convert it into positive.
 printf (“The absolute value is % d \n”, number); // print the value
 }
 ```   
@@ -33,9 +33,9 @@ printf (“The absolute value is % d \n”, number); // print the value
   - The syntax of the If else statement is as follows:
   
 >If (condition)
-Program statement 1;
-else
-Program statement 2;
+>Program statement 1;
+>else
+>Program statement 2;
 
 
 ##### The following program find whether a number is negative or positive using if statement:
@@ -64,12 +64,12 @@ printf (“The number is positive”);   //If it is more than zero then the give
   - The if statement may itself contain another if statement is called as nested if statement. - - The syntax of the Nested if Statement is as follows
  
 >if (condition1)
-if (condition2)
-statement-1;
-else
-statement-2;
-else
-statement-3;
+>if (condition2)
+>statement-1;
+>else
+>statement-2;
+>else
+>statement-3;
 
 
 ##### The following example print the given numbers along with the largest number using nested if statement.
