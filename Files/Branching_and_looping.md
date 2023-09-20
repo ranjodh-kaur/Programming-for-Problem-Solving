@@ -17,14 +17,14 @@ statement;
 ##### The following program calculate the absolute value of an integer using if statement:
 
 ```sh
-#include < stdio.h > //Include the stdio.h file
-int main ( ) // start of the program
+#include < stdio.h >             //Include the stdio.h file
+int main ( )                    // start of the program
 {
-int numbers; // Declare the variables
-printf (“Type a number:”); // message to the user
-scanf (“%d”, & number); // read the number from standard input
-if (number < 0) // check whether the number is a negative number
-number = – number; // If it is negative then convert it into positive.
+int numbers;                   // Declare the variables
+printf (“Type a number:”);     // message to the user
+scanf (“%d”, & number);       // read the number from standard input
+if (number < 0)                // check whether the number is a negative number
+number = – number;           // If it is negative then convert it into positive.
 printf (“The absolute value is % d \n”, number); // print the value
 }
 ```   
@@ -34,7 +34,7 @@ printf (“The absolute value is % d \n”, number); // print the value
   
 >If (condition)
 Program statement 1;
-Else
+else
 Program statement 2;
 
 
@@ -44,13 +44,13 @@ Program statement 2;
 #include < stdio.h > //include the stdio.h header file in your program
 int main ( ) // Start of the main
 {
-int num; // declare variable num as integer
-printf (“Enter the number”); //message to the user
-scanf (“%d”, &num); // read the input number from keyboard
-if (num < 0) // check whether number is less than zero.
-printf (“The number is negative”) // If it is less than zero then it is negative.
-else // else statement.
-printf (“The number is positive”); //If it is more than zero then the given number is positive.
+int num;                                   // declare variable num as integer
+printf (“Enter the number”);              //message to the user
+scanf (“%d”, &num);                      // read the input number from keyboard
+if (num < 0)                            // check whether number is less than zero.
+printf (“The number is negative”)      // If it is less than zero then it is negative.
+else                                  // else statement.
+printf (“The number is positive”);   //If it is more than zero then the given number is positive.
 ``` 
 ### Compound Relational tests
   - To perform compound relational tests,C language provides the necessary mechanisms. A compound relational test is simple one or more simple relational tests joined together by either the the logical OR operators or logical AND. These operators are represented by character pairs && // respectively. To form complex expressions in C,the compound operators can be used. 
@@ -75,20 +75,20 @@ statement-3;
 ##### The following example print the given numbers along with the largest number using nested if statement.
 #
 ```sh
-#include < stdio.h > //includes the stdio.h file to your program
-int main ( ) //start of main function
+#include < stdio.h >                       //includes the stdio.h file to your program
+int main ( )                             //start of main function
 {
-int a,b,c,big; //declaration of variables
-printf (“Enter three numbers”); //message to the user
-scanf (“%d %d %d”, &a, &b, &c); //Read variables a,b,c,
-if (a>b) // check whether a is greater than b if true then
-if(a>c) // check whether a is greater than c
-big = a ; // assign a to big
-else big = c ; // assign c to big
-else if (b>c) // if the condition (a>b) fails check whether b is
+int a,b,c,big;                         //declaration of variables
+printf (“Enter three numbers”);       //message to the user
+scanf (“%d %d %d”, &a, &b, &c);       //Read variables a,b,c,
+if (a>b)                             // check whether a is greater than b if true then
+if(a>c)                             // check whether a is greater than c
+big = a ;                          // assign a to big
+else big = c ;                     // assign c to big
+else if (b>c)                     // if the condition (a>b) fails check whether b is
 greater than c
-big = b ; // assign b to big
-else big = c ; // assign C to big
+big = b ;                       // assign b to big
+else big = c ;                 // assign C to big
 printf (“Largest of %d,%d&%d = %d”, a,b,c,big);
 }
 //print the given numbers along with the largest number.
@@ -200,7 +200,7 @@ printf("\n%d",i);
 }
 ``` 
 ### do-while
-  - TA do-while Loop in C is similar to a while loop, except that a do-while loop is execute at least one time.
+  - A do-while Loop in C is similar to a while loop, except that a do-while loop is execute at least one time.
   - A do while loop is a control flow statement that executes a block of code at least once, and then repeatedly executes the block, or not, depending on a given condition at the end of the block (in while).
   - The syntax of the do-while loop statement is as follows:
   
