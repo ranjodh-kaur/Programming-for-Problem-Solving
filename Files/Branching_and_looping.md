@@ -110,12 +110,18 @@ printf (“Largest of %d,%d&%d = %d”, a,b,c,big);
   - The syntax of switch statement is as follows :
   
 >switch( expression )
-{
-case constant-expression1: statements1;
-[case constant-expression2: statements2;]
-[case constant-expression3: statements3;]
-[default : statements4;]
-}
+>
+>{
+>
+>case constant-expression1: statements1;
+>
+>[case constant-expression2: statements2;]
+>
+>[case constant-expression3: statements3;]
+>
+>[default : statements4;]
+>
+>}
 
 ##### The following program find whether a number is negative or positive using if statement:
 #
@@ -159,13 +165,20 @@ Looping statement are the statements execute one or more statement repeatedly se
 ### while loop
   - In While Loop in C First check the condition if condition is true then control goes inside the loop body other wise goes outside the body. while loop will be repeats in clock wise direction.
   - The syntax of the while statement is as follows:
+
 >Assignment;
-while(condition)
-{
-Statements;
-......
-Increment/decrements (++ or --);
-}
+>
+>while(condition)
+>
+>{
+>
+>Statements;
+>
+>......
+>
+>Increment/decrements (++ or --);
+>
+>}
 Note: If while loop condition never false then loop become infinite loop.
 
 
@@ -191,9 +204,12 @@ i++;
   - The syntax of the for loop statement is as follows:
   
 >for(init; condition; increment)
-{
-    loop body;
-}
+>
+>{
+>
+>    loop body;
+>
+>}
 
 
 ##### Example of for loop:
@@ -216,11 +232,15 @@ printf("\n%d",i);
   - The syntax of the do-while loop statement is as follows:
   
 >do
-{
-Statements;
-........
-Increment/decrement (++ or --)
-} while();
+>
+>{
+>
+>Statements;
+>........
+>
+>Increment/decrement (++ or --)
+>
+>} while();
 
 
 ##### Example of do while loop:
