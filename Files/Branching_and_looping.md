@@ -18,16 +18,14 @@ statement;
 
 ```sh
 #include < stdio.h > //Include the stdio.h file
-void main ( ) // start of the program
+int main ( ) // start of the program
 {
 int numbers; // Declare the variables
 printf (“Type a number:”); // message to the user
 scanf (“%d”, & number); // read the number from standard input
-if (number < 0) // check whether the number is a negative
-number
-number = – number; // If it is negative then convert it into
-positive.
-Printf (“The absolute value is % d \n”, number); // print the value
+if (number < 0) // check whether the number is a negative number
+number = – number; // If it is negative then convert it into positive.
+printf (“The absolute value is % d \n”, number); // print the value
 }
 ```   
 ### The If else Statement
@@ -44,16 +42,15 @@ Program statement 2;
 #
 ```sh
 #include < stdio.h > //include the stdio.h header file in your program
-void main ( ) // Start of the main
+int main ( ) // Start of the main
 {
 int num; // declare variable num as integer
 printf (“Enter the number”); //message to the user
 scanf (“%d”, &num); // read the input number from keyboard
 if (num < 0) // check whether number is less than zero.
-Printf (“The number is negative”) // If it is less than zero then it is negative.
-Else // else statement.
-Printf (“The number is positive”); //If it is more than zero then the given
-number is positive.
+printf (“The number is negative”) // If it is less than zero then it is negative.
+else // else statement.
+printf (“The number is positive”); //If it is more than zero then the given number is positive.
 ``` 
 ### Compound Relational tests
   - To perform compound relational tests,C language provides the necessary mechanisms. A compound relational test is simple one or more simple relational tests joined together by either the the logical OR operators or logical AND. These operators are represented by character pairs && // respectively. To form complex expressions in C,the compound operators can be used. 
@@ -79,7 +76,7 @@ statement-3;
 #
 ```sh
 #include < stdio.h > //includes the stdio.h file to your program
-main ( ) //start of main function
+int main ( ) //start of main function
 {
 int a,b,c,big; //declaration of variables
 printf (“Enter three numbers”); //message to the user
@@ -113,7 +110,7 @@ case constant-expression1: statements1;
 #
 ```sh
 #include <stdio.h>
-main()
+int main()
 {
 int n=7;
 switch(n) {
@@ -166,10 +163,9 @@ Note: If while loop condition never false then loop become infinite loop.
 ```sh
 #include<stdio.h>
 
-void main()
+int main()
 {
 int i;
-clrscr();
 i=1;
 while(i<5)
 {
@@ -194,10 +190,9 @@ i++;
 ```sh
 #include<stdio.h>
 
-void main()
+int main()
 {
 int i;
-clrscr();
 for(i=1;i<5;i++)
 {
 printf("\n%d",i);
@@ -222,10 +217,9 @@ Increment/decrement (++ or --)
 ```sh
 #include<stdio.h>
 
-void main()
+int main()
 {
 int i;
-clrscr();
 i=1;
 do
 {
@@ -234,17 +228,4 @@ i++;
 }
 while(i<5);
 }
-``` 
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
