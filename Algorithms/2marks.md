@@ -15,21 +15,39 @@ __________
 
 ```mermaid
 graph TD;
-   Start-->InputSubjectsHindi,EnglishandMathematics,AggregatemarksandPercentageB;
-    InputSubjectsHindi,EnglishandMathematics,AggregatemarksandPercentageB--> CalculateAggregatemarksHindi+English+Mathematics;
+   Start-->InputSubjectsHindi,EnglishandMathematics,AggregatemarksandPercentage;
+    InputSubjectsHindi,EnglishandMathematics,AggregatemarksandPercentage--> CalculateAggregatemarksHindi+English+Mathematics;
     CalculateAggregatemarksHindi+English+Mathematics-->CalculatePercentageAggregate/300*10;
     CalculatePercentageAggregate/300*10--> PrintAggregratemarks;
  PrintAggregratemarks-->PrintPercentage
 PrintPercentage-->End
 ```
 
-
-
-
-
-
-
-
 ____
 ### C++ code
 ________
+```c++
+//Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+float Hindi,English, Mathematics,Aggregatemarks,Percentage;
+  cout<<"Input Hindi Marks out of 100 ";
+cin>>Hindi;
+  cout<<"Input English Marks out of 100 ";
+cin>>English;
+  cout<<"Input Math Marks out of 100 ";
+cin>>Mathematics;
+cout<<endl;
+Aggregatemarks=Hindi+English+Mathematics;
+Percentage=Aggregatemarks /300*100;
+
+cout<<"**********************";
+cout<<endl;
+cout<<" Your Total marks are: "<<Aggregatemarks;
+cout<<endl;
+cout<<" Your Percentage is: "<<Percentage;
+
+  return 0;
+}
+````
