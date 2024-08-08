@@ -4,9 +4,9 @@ Hint: Gross Salary = Basic Salary + DA + HRA
 Write an algorithm, flow-chart and C++ code
 
 _____________
-###Algorithm
+### Algorithm
 1. Input BasicSalary, GrossSalary, DA, HRA
-2. Calculate DA= BasicSalary x 0.4
-3. Calculate HRA= BasicSalary x 0.2
+2. Calculate DA= BasicSalary x 40 /100
+3. Calculate HRA= BasicSalary x 20 /100
 4. Calculate GrossSalary = BasicSalary + DA + HRA
 5. Print GrossSalary
