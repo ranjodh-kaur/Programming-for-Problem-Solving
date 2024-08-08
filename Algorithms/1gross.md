@@ -5,6 +5,7 @@ Write an algorithm, flow-chart and C++ code
 
 _____________
 ### Algorithm
+_______
 1. Input BasicSalary, GrossSalary, DA, HRA
 2. Calculate DA= BasicSalary x 40 /100
 3. Calculate HRA= BasicSalary x 20 /100
@@ -13,6 +14,7 @@ _____________
 
 __________________
 ### Flow-chart
+_______
 
 ```mermaid
 graph TD;
@@ -25,6 +27,7 @@ PrintGrossSalary-->End
 ```
 __________
 ### C++ code
+______
 ```c++
 #include <iostream>
 using namespace std;
