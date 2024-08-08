@@ -10,8 +10,8 @@ Hint: Centigrade = (Fahrenheit – 32) *5/9
 ```mermaid
 graph TD;
     Start-->InputCentigradeandFahrenheit;
-    InputCentigradeandFahrenheit-->CaculateCentigrade(Fahrenheit-32)*5/9;
-    CaculateCentigrade(Fahrenheit-32)*5/9-->PrintCentigrade;
+    InputCentigradeandFahrenheit-->Caculate_Centigrade_Fahrenheit-32*5/9;
+    Caculate_Centigrade_Fahrenheit-32*5/9-->PrintCentigrade;
     PrintCentigrade-->End;
 ```
 ### C++ code
