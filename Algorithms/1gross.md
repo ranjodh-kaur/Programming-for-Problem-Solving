@@ -24,6 +24,7 @@ CalculateGrossSalary-->PrintGrossSalary
 PrintGrossSalary-->End
 ```
 __________
+### C++ code
 ```c++
 #include <iostream>
 using namespace std;
