@@ -10,3 +10,16 @@ _____________
 3. Calculate HRA= BasicSalary x 20 /100
 4. Calculate GrossSalary = BasicSalary + DA + HRA
 5. Print GrossSalary
+
+__________________
+### Flow-chart
+
+```mermaid
+graph TD;
+    Start-->InputBasicSalary;
+    InputBasicSalary-->CalculateDA;
+   CalculateDA-->CalculateHRA;
+   CalculateHRA-->CalculateGrossSalary;
+CalculateGrossSalary-->PrintGrossSalary
+PrintGrossSalary-->End
+```
