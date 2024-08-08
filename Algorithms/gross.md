@@ -23,3 +23,19 @@ graph TD;
 CalculateGrossSalary-->PrintGrossSalary
 PrintGrossSalary-->End
 ```
+__________
+```c++
+#include <iostream>
+using namespace std;
+int main() {
+int BS,HRA,DA,GS;
+  cout<<"Type Basic Salary ";
+cin>>BS;
+DA=BS*40/100;
+HRA=BS*20/100;
+GS=BS+DA+HRA;
+cout<<" Your Gross salary is ";
+cout<<GS;
+  return 0;
+}
+```
